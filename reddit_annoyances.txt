@@ -5,6 +5,11 @@ www.reddit.com##.bottom-bar, .XPromoBottomBar
 www.reddit.com##.useApp,.TopNav__promoButton
 www.reddit.com##body:style(pointer-events:auto!important;)
 
+! Block reddit "interests" popup
+! https://www.reddit.com/r/uBlockOrigin/comments/13naiya/how_do_i_remove_this_reddit_splash_page/
+reddit.com###SHORTCUT_FOCUSABLE_DIV>[class=""] [role=dialog]:has-text(Pick 3 or more things):upward([class=""])
+reddit.com##body[style*="overflow: hidden"]:style(overflow: auto !important)
+
 ! uBO Annoyances has also this:
 ! https://github.com/uBlockOrigin/uAssets/issues/6826
 reddit.com##.XPromoPopup
