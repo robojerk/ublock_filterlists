@@ -1,3 +1,9 @@
+! Title: Robojerk's reddit annoyances list
+! Version: 23May2023
+! Expires: 1 day
+! Description: 
+! Homepage: 
+
 ! Reddit app ad
 www.reddit.com##.XPromoPopupRpl
 www.reddit.com##xpromo-new-app-selector
