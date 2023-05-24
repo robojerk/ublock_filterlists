@@ -29,10 +29,12 @@ amp.reddit.com##.upsell_banner
 ! www.reddit.com##+js(nostif, /^/)
 ! www.reddit.com##+js(nosiif, /^/)
 
-! 2022-11-11 20:20:47 CET:
 www.reddit.com##xpromo-app-selector
 www.reddit.com##body.scroll-is-blocked:style(overflow: visible!important; position: static!important;)
 www.reddit.com##+js(aeld, touchmove)
+
+reddit.com##xpromo-nsfw-blocking-modal
+reddit.com##+js(ra, style, .sidebar-grid[style^="filter: blur"], stay)
 
 ! 2022-11-12 10:11:02 CET
 www.reddit.com##.XPromoPopupRplNew
